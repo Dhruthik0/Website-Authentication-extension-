@@ -1,29 +1,14 @@
-# --- Web API ---
 fastapi==0.116.1
 uvicorn==0.35.0
-uvloop==0.21.0
-watchfiles==1.1.0
-websockets==15.0.1
 
-# --- Core ML / Data ---
 numpy==2.0.2
 pandas==2.3.2
-scikit-learn==1.6.1
 scipy==1.13.1
-imbalanced-learn==0.12.4
+scikit-learn==1.6.1
 joblib==1.5.2
+
 tldextract==5.3.0
 requests==2.32.5
-tqdm==4.67.1
 
-# --- PyTorch CNN ---
 torch==2.8.0
-
-# --- Config / utils ---
-python-dotenv==1.1.1
-rich==14.1.0
-
-# --- Optional: Streamlit UI (if you use `streamlit run app.py`) ---
-streamlit==1.49.1
-altair==5.5.0
-pydeck==0.9.1
+tqdm==4.67.1
